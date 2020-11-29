@@ -1,39 +1,21 @@
-<h1 align="center">v-tooltip</h1>
+# v-tooltip
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/Akryum/v-tooltip/master/v-tooltip.png" width="247" height="172" alt="Screenshot"/>
+<img src="https://raw.githubusercontent.com/yjl9903/v-tooltip/master/v-tooltip.png" width="247" height="172" alt="Screenshot"/>
 </p>
 
-<p align="center">
-<a href="https://www.npmjs.com/package/v-tooltip"><img src="https://img.shields.io/npm/v/v-tooltip.svg"/> <img src="https://img.shields.io/npm/dm/v-tooltip.svg"/></a> <a href="https://vuejs.org/"><img src="https://img.shields.io/badge/vue-2.x-brightgreen.svg"/></a>
-</p>
+<a href="https://www.npmjs.com/package/@yjl9903/v-tooltip"><img src="https://img.shields.io/npm/v/v-tooltip.svg"/> <img src="https://img.shields.io/npm/dm/v-tooltip.svg"/></a> <a href="https://vuejs.org/"><img src="https://img.shields.io/badge/vue-2.x-brightgreen.svg"/></a>
 
-<p align="center">
-Easy tooltips, popovers and dropdown with <a href="https://github.com/FezVrasta/popper.js">Popper.js</a>
-</p>
+Easy tooltips, popovers and dropdown with <a href="https://github.com/FezVrasta/popper.js">Popper.js</a>.
 
-<p align="center">
-  <a href="https://www.patreon.com/akryum" target="_blank">
-    <img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Become a Patreon">
-  </a>
-</p>
+Thanks to [@Akryum](https://github.com/Akryum).
 
-## Sponsors
-
-[![sponsors logos](https://guillaume-chau.info/sponsors.png)](https://guillaume-chau.info/sponsors)
-
-<br>
-<br>
-<br>
-
-**Useful Links**
+## Useful Links
 
 - [Live Demo](https://akryum.github.io/v-tooltip/)
 - [JSFiddle](https://jsfiddle.net/Akryum/tsjco74e/)
 
-<br>
-
-**Table of Contents**
+## Table of Contents
 
 - [Getting started](#getting-started)
 - [Installation](#installation)
@@ -50,16 +32,14 @@ Easy tooltips, popovers and dropdown with <a href="https://github.com/FezVrasta/
   - [Global options](#global-options)
 - [Style Examples](#style-examples)
 
-<br>
-
-# Getting started
+## Getting started
 
 This package offers two different usages: [directive](#directive) or [component](#component). You can use them to create tooltips, popovers or all kinds of dropdowns.
 
 1. Install the plugin:
 
-```
-npm install --save v-tooltip
+```bash
+npm install --save @yjl9903/v-tooltip
 ```
 
 2. Add the plugin into your app:
@@ -96,14 +76,12 @@ Vue.use(VTooltip)
 
 [More info on the component](#component)
 
-<br>
+## Installation
 
-# Installation
+### Npm
 
-## Npm
-
-```
-npm install --save v-tooltip
+```bash
+npm install --save @yjl9903/v-tooltip
 ```
 
 Install the plugin into Vue:
@@ -150,9 +128,9 @@ Vue.directive('close-popover', VTooltip.VClosePopover)
 Vue.component('v-popover', VTooltip.VPopover)
 ```
 
-# Usage
+## Usage
 
-## Directive
+### Directive
 
 In the template, use the `v-tooltip` directive:
 
@@ -756,7 +734,6 @@ Bellow are some examples of style you need. [Here](https://github.com/Akryum/v-t
   transition: opacity .15s;
 }
 ```
-
 
 ---
 
